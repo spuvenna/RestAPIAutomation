@@ -8,8 +8,7 @@ import cucumber.api.DataTable;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
-import apiutils.RequestSpec;
-import apiutils.ResponseFromAPI;
+import apiutils.RequestResponseSpec;
 import reusableclasses.Utils;
 
 public class SocialNetworkingStepDef {
@@ -31,20 +30,20 @@ public class SocialNetworkingStepDef {
 			for (String param : parameterList) {
 				paramList.put(param.split("=")[0].trim(), param.split("=")[1].trim());
 			}
-			RequestSpec.getMethodWithParams(null, apiURL, paramList);
+			RequestResponseSpec.runAPIRequest(apiURL, paramList);
 			log.info("Sent Request for '" + apiURL + "'");
 		}
 
 		@Then("^Verify (post|comments|users) api response code \"([^\"]*)\"$")
 		public void verify_comments_api_response_code(String resource, String code) throws Throwable {
-			int resCode = ResponseFromAPI.getAPIStatusCode();
+			int resCode = RequestResponseSpec.getAPIStatusCode();
 			log.info("The '" + resource + "' API returned '" + resCode + "'");
 			Assert.assertEquals(code, String.valueOf(resCode));
 		}
 
 		@Then("^Verify (post|comments|users) api response \"([^\"]*)\"$")
 		public void verify_post_api_response(String resource, String noOfResponses) throws Throwable {
-			String actualCount = String.valueOf(ResponseFromAPI.getObjectsFromResponse().size());
+			String actualCount = String.valueOf(RequestResponseSpec.getObjectsFromResponse().size());
 			Assert.assertEquals(actualCount, noOfResponses);
 			log.info("The '" + resource + "' response returned are as expected");
 		}
@@ -52,7 +51,7 @@ public class SocialNetworkingStepDef {
 		@Then("^Verify (post|comments|users) response has with attributes$")
 		public void verify_users_response_has_with_attributes(String resource, DataTable attributes) throws Throwable {
 			List<String> keyValues = attributes.transpose().asList(String.class);
-			Map<String, ?> postObject = ResponseFromAPI.getObjectsFromResponse().get(0);
+			Map<String, ?> postObject = RequestResponseSpec.getObjectsFromResponse().get(0);
 			boolean isPresent = true;
 			for (String key : keyValues) {
 				if (!postObject.containsKey(key)) {
