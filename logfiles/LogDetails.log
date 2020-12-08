@@ -1,0 +1,48 @@
+2020-12-08 16:25:01,066  INFO [main] Utils:21 - Received value 'https://jsonplaceholder.typicode.com' for 'baseurl'
+2020-12-08 16:25:01,069  INFO [main] Utils:21 - Received value '/posts' for 'post'
+2020-12-08 16:25:01,069  INFO [main] StepDefination:28 - API URL is 'https://jsonplaceholder.typicode.com/posts'
+2020-12-08 16:25:02,863  INFO [main] StepDefination:39 - Sent Request for 'https://jsonplaceholder.typicode.com/posts'
+2020-12-08 16:25:02,866  INFO [main] ResponseFromAPI:23 - Successfully received status code from API
+2020-12-08 16:25:02,866  INFO [main] StepDefination:45 - The 'post' API returned '200'
+2020-12-08 16:25:02,910  INFO [main] StepDefination:53 - The 'post' response returned are as expected
+2020-12-08 16:25:02,912  INFO [main] StepDefination:69 - Attributes are present in response
+2020-12-08 16:25:02,914  INFO [main] Utils:21 - Received value 'https://jsonplaceholder.typicode.com' for 'baseurl'
+2020-12-08 16:25:02,914  INFO [main] Utils:21 - Received value '/posts' for 'post'
+2020-12-08 16:25:02,914  INFO [main] StepDefination:28 - API URL is 'https://jsonplaceholder.typicode.com/posts'
+2020-12-08 16:25:03,377  INFO [main] StepDefination:39 - Sent Request for 'https://jsonplaceholder.typicode.com/posts'
+2020-12-08 16:25:03,379  INFO [main] ResponseFromAPI:23 - Successfully received status code from API
+2020-12-08 16:25:03,379  INFO [main] StepDefination:45 - The 'post' API returned '200'
+2020-12-08 16:25:03,381  INFO [main] StepDefination:53 - The 'post' response returned are as expected
+2020-12-08 16:25:03,382  INFO [main] StepDefination:69 - Attributes are present in response
+2020-12-08 16:25:03,385  INFO [main] Utils:21 - Received value 'https://jsonplaceholder.typicode.com' for 'baseurl'
+2020-12-08 16:25:03,385  INFO [main] Utils:21 - Received value '/comments' for 'comments'
+2020-12-08 16:25:03,385  INFO [main] StepDefination:28 - API URL is 'https://jsonplaceholder.typicode.com/comments'
+2020-12-08 16:25:03,815  INFO [main] StepDefination:39 - Sent Request for 'https://jsonplaceholder.typicode.com/comments'
+2020-12-08 16:25:03,815  INFO [main] ResponseFromAPI:23 - Successfully received status code from API
+2020-12-08 16:25:03,816  INFO [main] StepDefination:45 - The 'comments' API returned '200'
+2020-12-08 16:25:03,816  INFO [main] StepDefination:53 - The 'comments' response returned are as expected
+2020-12-08 16:25:03,817  INFO [main] StepDefination:69 - Attributes are present in response
+2020-12-08 16:25:03,819  INFO [main] Utils:21 - Received value 'https://jsonplaceholder.typicode.com' for 'baseurl'
+2020-12-08 16:25:03,819  INFO [main] Utils:21 - Received value '/comments' for 'comments'
+2020-12-08 16:25:03,819  INFO [main] StepDefination:28 - API URL is 'https://jsonplaceholder.typicode.com/comments'
+2020-12-08 16:25:04,244  INFO [main] StepDefination:39 - Sent Request for 'https://jsonplaceholder.typicode.com/comments'
+2020-12-08 16:25:04,245  INFO [main] ResponseFromAPI:23 - Successfully received status code from API
+2020-12-08 16:25:04,245  INFO [main] StepDefination:45 - The 'comments' API returned '200'
+2020-12-08 16:25:04,246  INFO [main] StepDefination:53 - The 'comments' response returned are as expected
+2020-12-08 16:25:04,247  INFO [main] StepDefination:69 - Attributes are present in response
+2020-12-08 16:25:04,250  INFO [main] Utils:21 - Received value 'https://jsonplaceholder.typicode.com' for 'baseurl'
+2020-12-08 16:25:04,250  INFO [main] Utils:21 - Received value '/users' for 'users'
+2020-12-08 16:25:04,250  INFO [main] StepDefination:28 - API URL is 'https://jsonplaceholder.typicode.com/users'
+2020-12-08 16:25:04,663  INFO [main] StepDefination:39 - Sent Request for 'https://jsonplaceholder.typicode.com/users'
+2020-12-08 16:25:04,664  INFO [main] ResponseFromAPI:23 - Successfully received status code from API
+2020-12-08 16:25:04,664  INFO [main] StepDefination:45 - The 'users' API returned '200'
+2020-12-08 16:25:04,665  INFO [main] StepDefination:53 - The 'users' response returned are as expected
+2020-12-08 16:25:04,665  INFO [main] StepDefination:69 - Attributes are present in response
+2020-12-08 16:25:04,667  INFO [main] Utils:21 - Received value 'https://jsonplaceholder.typicode.com' for 'baseurl'
+2020-12-08 16:25:04,667  INFO [main] Utils:21 - Received value '/users' for 'users'
+2020-12-08 16:25:04,667  INFO [main] StepDefination:28 - API URL is 'https://jsonplaceholder.typicode.com/users'
+2020-12-08 16:25:05,089  INFO [main] StepDefination:39 - Sent Request for 'https://jsonplaceholder.typicode.com/users'
+2020-12-08 16:25:05,090  INFO [main] ResponseFromAPI:23 - Successfully received status code from API
+2020-12-08 16:25:05,090  INFO [main] StepDefination:45 - The 'users' API returned '200'
+2020-12-08 16:25:05,091  INFO [main] StepDefination:53 - The 'users' response returned are as expected
+2020-12-08 16:25:05,092  INFO [main] StepDefination:69 - Attributes are present in response
