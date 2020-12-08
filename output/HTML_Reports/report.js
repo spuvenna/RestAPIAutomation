@@ -1,4 +1,4 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("resources/features/differentActionsOnSystem.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("resources/features/socialNetworkingServices.feature");
 formatter.feature({
   "line": 1,
   "name": "POST, GET APIs validation with paramenters passed and validate the response",
@@ -36,7 +36,7 @@ formatter.step({
 });
 formatter.step({
   "line": 8,
-  "name": "Verify post response with attributes",
+  "name": "Verify post response has with attributes",
   "rows": [
     {
       "cells": [
@@ -140,7 +140,7 @@ formatter.step({
 });
 formatter.step({
   "line": 8,
-  "name": "Verify post response with attributes",
+  "name": "Verify post response has with attributes",
   "rows": [
     {
       "cells": [
@@ -176,10 +176,10 @@ formatter.match({
       "offset": 0
     }
   ],
-  "location": "StepDefination.apiURI(String)"
+  "location": "SocialNetworkingStepDef.apiURI(String)"
 });
 formatter.result({
-  "duration": 263648500,
+  "duration": 191847300,
   "status": "passed"
 });
 formatter.match({
@@ -193,10 +193,10 @@ formatter.match({
       "offset": 25
     }
   ],
-  "location": "StepDefination.apiIsPassedWith(String,String)"
+  "location": "SocialNetworkingStepDef.apiIsPassedWith(String,String)"
 });
 formatter.result({
-  "duration": 1792445500,
+  "duration": 1807528600,
   "status": "passed"
 });
 formatter.match({
@@ -210,10 +210,10 @@ formatter.match({
       "offset": 31
     }
   ],
-  "location": "StepDefination.verify_comments_api_response_code(String,String)"
+  "location": "SocialNetworkingStepDef.verify_comments_api_response_code(String,String)"
 });
 formatter.result({
-  "duration": 2236200,
+  "duration": 2339600,
   "status": "passed"
 });
 formatter.match({
@@ -227,10 +227,10 @@ formatter.match({
       "offset": 26
     }
   ],
-  "location": "StepDefination.verify_post_api_response(String,String)"
+  "location": "SocialNetworkingStepDef.verify_post_api_response(String,String)"
 });
 formatter.result({
-  "duration": 41877900,
+  "duration": 51731300,
   "status": "passed"
 });
 formatter.match({
@@ -240,10 +240,10 @@ formatter.match({
       "offset": 7
     }
   ],
-  "location": "StepDefination.verify_users_response_with_attributes(String,DataTable)"
+  "location": "SocialNetworkingStepDef.verify_users_response_has_with_attributes(String,DataTable)"
 });
 formatter.result({
-  "duration": 1056000,
+  "duration": 1373100,
   "status": "passed"
 });
 formatter.scenario({
@@ -285,7 +285,7 @@ formatter.step({
 });
 formatter.step({
   "line": 8,
-  "name": "Verify post response with attributes",
+  "name": "Verify post response has with attributes",
   "rows": [
     {
       "cells": [
@@ -321,10 +321,10 @@ formatter.match({
       "offset": 0
     }
   ],
-  "location": "StepDefination.apiURI(String)"
+  "location": "SocialNetworkingStepDef.apiURI(String)"
 });
 formatter.result({
-  "duration": 879800,
+  "duration": 967100,
   "status": "passed"
 });
 formatter.match({
@@ -338,10 +338,10 @@ formatter.match({
       "offset": 25
     }
   ],
-  "location": "StepDefination.apiIsPassedWith(String,String)"
+  "location": "SocialNetworkingStepDef.apiIsPassedWith(String,String)"
 });
 formatter.result({
-  "duration": 462498700,
+  "duration": 607995200,
   "status": "passed"
 });
 formatter.match({
@@ -355,10 +355,10 @@ formatter.match({
       "offset": 31
     }
   ],
-  "location": "StepDefination.verify_comments_api_response_code(String,String)"
+  "location": "SocialNetworkingStepDef.verify_comments_api_response_code(String,String)"
 });
 formatter.result({
-  "duration": 493300,
+  "duration": 1524500,
   "status": "passed"
 });
 formatter.match({
@@ -372,10 +372,10 @@ formatter.match({
       "offset": 26
     }
   ],
-  "location": "StepDefination.verify_post_api_response(String,String)"
+  "location": "SocialNetworkingStepDef.verify_post_api_response(String,String)"
 });
 formatter.result({
-  "duration": 684600,
+  "duration": 3844600,
   "status": "passed"
 });
 formatter.match({
@@ -385,10 +385,10 @@ formatter.match({
       "offset": 7
     }
   ],
-  "location": "StepDefination.verify_users_response_with_attributes(String,DataTable)"
+  "location": "SocialNetworkingStepDef.verify_users_response_has_with_attributes(String,DataTable)"
 });
 formatter.result({
-  "duration": 901700,
+  "duration": 6324400,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -421,7 +421,7 @@ formatter.step({
 });
 formatter.step({
   "line": 24,
-  "name": "Verify comments response with attributes",
+  "name": "Verify comments response has with attributes",
   "rows": [
     {
       "cells": [
@@ -531,7 +531,7 @@ formatter.step({
 });
 formatter.step({
   "line": 24,
-  "name": "Verify comments response with attributes",
+  "name": "Verify comments response has with attributes",
   "rows": [
     {
       "cells": [
@@ -573,10 +573,10 @@ formatter.match({
       "offset": 0
     }
   ],
-  "location": "StepDefination.apiURI(String)"
+  "location": "SocialNetworkingStepDef.apiURI(String)"
 });
 formatter.result({
-  "duration": 669600,
+  "duration": 2801400,
   "status": "passed"
 });
 formatter.match({
@@ -590,10 +590,10 @@ formatter.match({
       "offset": 29
     }
   ],
-  "location": "StepDefination.apiIsPassedWith(String,String)"
+  "location": "SocialNetworkingStepDef.apiIsPassedWith(String,String)"
 });
 formatter.result({
-  "duration": 428702700,
+  "duration": 505044700,
   "status": "passed"
 });
 formatter.match({
@@ -607,10 +607,10 @@ formatter.match({
       "offset": 35
     }
   ],
-  "location": "StepDefination.verify_comments_api_response_code(String,String)"
+  "location": "SocialNetworkingStepDef.verify_comments_api_response_code(String,String)"
 });
 formatter.result({
-  "duration": 333000,
+  "duration": 307600,
   "status": "passed"
 });
 formatter.match({
@@ -624,10 +624,10 @@ formatter.match({
       "offset": 30
     }
   ],
-  "location": "StepDefination.verify_post_api_response(String,String)"
+  "location": "SocialNetworkingStepDef.verify_post_api_response(String,String)"
 });
 formatter.result({
-  "duration": 425200,
+  "duration": 463100,
   "status": "passed"
 });
 formatter.match({
@@ -637,10 +637,10 @@ formatter.match({
       "offset": 7
     }
   ],
-  "location": "StepDefination.verify_users_response_with_attributes(String,DataTable)"
+  "location": "SocialNetworkingStepDef.verify_users_response_has_with_attributes(String,DataTable)"
 });
 formatter.result({
-  "duration": 299400,
+  "duration": 327100,
   "status": "passed"
 });
 formatter.scenario({
@@ -682,7 +682,7 @@ formatter.step({
 });
 formatter.step({
   "line": 24,
-  "name": "Verify comments response with attributes",
+  "name": "Verify comments response has with attributes",
   "rows": [
     {
       "cells": [
@@ -724,10 +724,10 @@ formatter.match({
       "offset": 0
     }
   ],
-  "location": "StepDefination.apiURI(String)"
+  "location": "SocialNetworkingStepDef.apiURI(String)"
 });
 formatter.result({
-  "duration": 575100,
+  "duration": 655800,
   "status": "passed"
 });
 formatter.match({
@@ -741,10 +741,10 @@ formatter.match({
       "offset": 29
     }
   ],
-  "location": "StepDefination.apiIsPassedWith(String,String)"
+  "location": "SocialNetworkingStepDef.apiIsPassedWith(String,String)"
 });
 formatter.result({
-  "duration": 425542700,
+  "duration": 459876500,
   "status": "passed"
 });
 formatter.match({
@@ -758,10 +758,10 @@ formatter.match({
       "offset": 35
     }
   ],
-  "location": "StepDefination.verify_comments_api_response_code(String,String)"
+  "location": "SocialNetworkingStepDef.verify_comments_api_response_code(String,String)"
 });
 formatter.result({
-  "duration": 384900,
+  "duration": 318800,
   "status": "passed"
 });
 formatter.match({
@@ -775,10 +775,10 @@ formatter.match({
       "offset": 30
     }
   ],
-  "location": "StepDefination.verify_post_api_response(String,String)"
+  "location": "SocialNetworkingStepDef.verify_post_api_response(String,String)"
 });
 formatter.result({
-  "duration": 628400,
+  "duration": 478800,
   "status": "passed"
 });
 formatter.match({
@@ -788,10 +788,10 @@ formatter.match({
       "offset": 7
     }
   ],
-  "location": "StepDefination.verify_users_response_with_attributes(String,DataTable)"
+  "location": "SocialNetworkingStepDef.verify_users_response_has_with_attributes(String,DataTable)"
 });
 formatter.result({
-  "duration": 709700,
+  "duration": 600600,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -824,7 +824,7 @@ formatter.step({
 });
 formatter.step({
   "line": 41,
-  "name": "Verify users response with attributes",
+  "name": "Verify users response has with attributes",
   "rows": [
     {
       "cells": [
@@ -946,7 +946,7 @@ formatter.step({
 });
 formatter.step({
   "line": 41,
-  "name": "Verify users response with attributes",
+  "name": "Verify users response has with attributes",
   "rows": [
     {
       "cells": [
@@ -1000,10 +1000,10 @@ formatter.match({
       "offset": 0
     }
   ],
-  "location": "StepDefination.apiURI(String)"
+  "location": "SocialNetworkingStepDef.apiURI(String)"
 });
 formatter.result({
-  "duration": 637800,
+  "duration": 636100,
   "status": "passed"
 });
 formatter.match({
@@ -1017,10 +1017,10 @@ formatter.match({
       "offset": 26
     }
   ],
-  "location": "StepDefination.apiIsPassedWith(String,String)"
+  "location": "SocialNetworkingStepDef.apiIsPassedWith(String,String)"
 });
 formatter.result({
-  "duration": 411950900,
+  "duration": 560141800,
   "status": "passed"
 });
 formatter.match({
@@ -1034,10 +1034,10 @@ formatter.match({
       "offset": 32
     }
   ],
-  "location": "StepDefination.verify_comments_api_response_code(String,String)"
+  "location": "SocialNetworkingStepDef.verify_comments_api_response_code(String,String)"
 });
 formatter.result({
-  "duration": 309800,
+  "duration": 327900,
   "status": "passed"
 });
 formatter.match({
@@ -1051,10 +1051,10 @@ formatter.match({
       "offset": 27
     }
   ],
-  "location": "StepDefination.verify_post_api_response(String,String)"
+  "location": "SocialNetworkingStepDef.verify_post_api_response(String,String)"
 });
 formatter.result({
-  "duration": 412300,
+  "duration": 378700,
   "status": "passed"
 });
 formatter.match({
@@ -1064,10 +1064,10 @@ formatter.match({
       "offset": 7
     }
   ],
-  "location": "StepDefination.verify_users_response_with_attributes(String,DataTable)"
+  "location": "SocialNetworkingStepDef.verify_users_response_has_with_attributes(String,DataTable)"
 });
 formatter.result({
-  "duration": 377000,
+  "duration": 280600,
   "status": "passed"
 });
 formatter.scenario({
@@ -1109,7 +1109,7 @@ formatter.step({
 });
 formatter.step({
   "line": 41,
-  "name": "Verify users response with attributes",
+  "name": "Verify users response has with attributes",
   "rows": [
     {
       "cells": [
@@ -1163,10 +1163,10 @@ formatter.match({
       "offset": 0
     }
   ],
-  "location": "StepDefination.apiURI(String)"
+  "location": "SocialNetworkingStepDef.apiURI(String)"
 });
 formatter.result({
-  "duration": 684500,
+  "duration": 606400,
   "status": "passed"
 });
 formatter.match({
@@ -1180,10 +1180,10 @@ formatter.match({
       "offset": 26
     }
   ],
-  "location": "StepDefination.apiIsPassedWith(String,String)"
+  "location": "SocialNetworkingStepDef.apiIsPassedWith(String,String)"
 });
 formatter.result({
-  "duration": 420950700,
+  "duration": 460948500,
   "status": "passed"
 });
 formatter.match({
@@ -1197,10 +1197,10 @@ formatter.match({
       "offset": 32
     }
   ],
-  "location": "StepDefination.verify_comments_api_response_code(String,String)"
+  "location": "SocialNetworkingStepDef.verify_comments_api_response_code(String,String)"
 });
 formatter.result({
-  "duration": 423900,
+  "duration": 315400,
   "status": "passed"
 });
 formatter.match({
@@ -1214,10 +1214,10 @@ formatter.match({
       "offset": 27
     }
   ],
-  "location": "StepDefination.verify_post_api_response(String,String)"
+  "location": "SocialNetworkingStepDef.verify_post_api_response(String,String)"
 });
 formatter.result({
-  "duration": 475900,
+  "duration": 427400,
   "status": "passed"
 });
 formatter.match({
@@ -1227,10 +1227,10 @@ formatter.match({
       "offset": 7
     }
   ],
-  "location": "StepDefination.verify_users_response_with_attributes(String,DataTable)"
+  "location": "SocialNetworkingStepDef.verify_users_response_has_with_attributes(String,DataTable)"
 });
 formatter.result({
-  "duration": 359200,
+  "duration": 319700,
   "status": "passed"
 });
 });

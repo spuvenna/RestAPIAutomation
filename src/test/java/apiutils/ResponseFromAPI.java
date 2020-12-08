@@ -9,7 +9,7 @@ import com.jayway.jsonpath.JsonPath;
  * 
  * @author Sowmya
  * 
- *         This class is to validate the response status code and Response
+ *         Class to validate the response status code and Response
  *
  */
 public class ResponseFromAPI {
@@ -28,8 +28,8 @@ public class ResponseFromAPI {
 		return statusCode;
 	}
 
-	public static List<Map<?, ?>> getObjectsFromResponse() {
-		List<Map<?, ?>> jsonObjects = null;
+	public static List<Map<String, ?>> getObjectsFromResponse() {
+		List<Map<String, ?>> jsonObjects = null;
 		try {
 			jsonObjects = JsonPath.read(RequestSpec.apiResponse.asString(), "$");
 		} catch (Exception e) {

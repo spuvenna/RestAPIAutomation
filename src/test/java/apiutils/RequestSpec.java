@@ -10,8 +10,8 @@ import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 
+/* Class for Request Spec Builder usage to get the request*/
 public class RequestSpec {
-
 	static Logger log = Logger.getLogger("RequestSpec");
 	static Response apiResponse;
 

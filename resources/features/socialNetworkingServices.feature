@@ -5,7 +5,7 @@ Scenario Outline: Verify post api with different parameters
 	When post api is passed with "<params>" 
 	Then Verify post api response code "<statusCode>" 
 	And Verify post api response "<noOfResponses>" 
-	And Verify post response with attributes 
+	And Verify post response has with attributes 
 		|userId   |
 		|id       |
 		|title    |
@@ -21,7 +21,7 @@ Scenario Outline: Verify comments api with different parameters
 	When comments api is passed with "<params>" 
 	Then Verify comments api response code "<statusCode>" 
 	And Verify comments api response "<noOfResponses>" 
-	And Verify comments response with attributes 
+	And Verify comments response has with attributes 
 		|postId	  |
 		|id       |
 		|name     |
@@ -38,7 +38,7 @@ Scenario Outline: Verify users api with different parameters
 	When users api is passed with "<params>" 
 	Then Verify users api response code "<statusCode>" 
 	And Verify users api response "<noOfResponses>" 
-	And Verify users response with attributes 
+	And Verify users response has with attributes 
 		|id       |
 		|name     |
 		|phone    |
